@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Color Check App</title>
+		<link rel="icon" href="https://img.icons8.com/fluent/2x/color-palette.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<h2>Select Your Favourite Colors or Write below & click the Add button!!!</h2>
+			<pre>[  All Color Supported {Hex, hls, rgba}  ]</pre>
+			<select id="slt" onChange="heandle()">
+				<option value="black" >black</option>
+				<option value="red">red</option>
+				<option value="green">green</option>
+				<option value="orangered">orangered</option>
+				<option value="blue">blue</option>
+				<option value="yellow">yellow</option>
+				<option value="greenyellow">greenyellow</option>
+				<option value="orange">orange</option>
+				<option value="chocolate">chocolate</option>
+				<option value="aqua">aqua</option>
+			</select>
+			
+			<input type='text' id="show" placeholder="write color name"/>
+			<input type='SUBMIT' id="btn" value="Add" class="btn"/>
+			
+			<div id="box"></div>
+			
+			<h1>Welcome to Color Selection App.</h1>
+			
+			<script src="index.js"></script>
+		</div>
+	</body>
+</html>
